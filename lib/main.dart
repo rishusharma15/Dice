@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.grey,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -36,15 +37,15 @@ class _MyAppState extends State<MyApp> {
                   width: 200,
                 ),
               ),
-              SizedBox(height: 50),
+              SizedBox(height: 20),
               Text(
-                'Tap on Dice',
+                'Isko Dabao',
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.w100,
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 50),
               Text(
                 'You Got: ${num}',
                 style: TextStyle(
